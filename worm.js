@@ -12,7 +12,7 @@ function DrawWorm() {
 
     var mouse = {
         x: window.innerWidth / 2,
-        y: window.innerHeight
+        y: window.innerHeight / 3
     };
     this.mouse = mouse;
 
