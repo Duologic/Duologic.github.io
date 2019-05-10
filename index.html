@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Referrer-Policy" content="no-referrer, strict-origin-when-cross-origin">
+    <meta name="Description" content="About page for Jeroen Op 't Eynde.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jeroen Op 't Eynde - Simplistic</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css" integrity="sha256-8B1OaG0zT7uYA572S2xOxWACq9NXYPQ+U5kHPV1bJN4=" referrerpolicy="no-referrer" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.7.2/css/all.min.css" integrity="sha256-nAmazAk6vS34Xqo0BSrTb+abbtFlgsFK7NKSi6o7Y78=" referrerpolicy="no-referrer" crossorigin="anonymous" />
+    <script type="text/javascript">
+      window.addEventListener("DOMContentLoaded", function(){
+        console.log("Hello there developer. Want to talk? Find me on Twitter and let's have a chat.");
+        console.log("https://twitter.com/SimplisticBE");
+      });
+    </script>
+    <style type="text/css">
+    html, body, section, canvas {
+      position: relative;
+      height: 100%;
+      min-height: 100%;
+      overflow: hidden;
+    }
+    canvas {
+      top: 0;
+      position: absolute;
+    }
+    .hero-body {
+      position: relative;
+      top: 50%;
+      transform: translateY(-40%);
+    }
+    img {
+      height: 15rem;
+      border-radius: 7.5rem;
+      box-shadow: 1px 2px 5px 2px grey;
+    }
+    .tabs.is-large {
+      font-size: 2rem;
+    }
+    .tabs a {
+      padding: .5em .5em;
+    }
+    .tabs a:hover {
+      color: grey;
+    }
+    </style>
+  </head>
+  <body style="height:100%">
+    <section class="hero is-dark">
+      <canvas id='canvas'></canvas>
+      <div class="hero-body">
+        <div class="container has-text-centered">
+          <img src="index.jpg" alt="Jeroen walks in nature.">
+          <p class="title">
+            Jeroen Op 't Eynde
+          </p>
+          <p class="subtitle">
+            Freelance IT consultant
+          </p>
+        </div>
+      </div>
+
+      <div class="hero-foot">
+        <nav class="tabs is-centered is-large is-fullwidth">
+          <div class="container">
+            <ul>
+              <li>
+                <a href="https://github.com/Duologic">
+                  <span class="icon">
+                    <i class="fab fa-github"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/SimplisticBE">
+                  <span class="icon">
+                    <i class="fab fa-twitter"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/jeroeno/">
+                  <span class="icon">
+                    <i class="fab fa-linkedin"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="skype:live:jeroen-microsoft?chat">
+                  <span class="icon">
+                    <i class="fab fa-skype"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="mailto:website@simplistic.be">
+                  <span class="icon">
+                    <i class="fas fa-inbox"></i>
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </section>
+    <script type="text/javascript" src="worm.js"></script>
+  </body>
+</html>
